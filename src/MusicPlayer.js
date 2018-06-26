@@ -3,7 +3,9 @@ import PropTypes from 'prop-types'
 import './MusicPlayer.css'
 
 class MusicPlayer extends Component {
-
+  var a ={
+  
+  }
   static propTypes = {
     autoplay: PropTypes.bool,
     progressColor: PropTypes.string,
@@ -216,6 +218,9 @@ class MusicPlayer extends Component {
           <div className="cover" style={{ backgroundImage: `url(${activeMusic.cover})` }}></div>
         </div>
       </div>
+
+<div>       <p>{playlist.a1.artist}</p>
+            <p>{playlist.a2.title}</p>
     )
   }
 }
